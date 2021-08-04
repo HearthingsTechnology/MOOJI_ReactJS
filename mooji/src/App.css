@@ -1,0 +1,57 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  scroll-behavior: smooth;
+} 
+
+/*
+body
+{
+
+}
+*/
+
+.menu
+{
+  background: #000;
+  height: 4em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+.menu ul
+{
+  display: flex;
+  gap: 2em;
+  position: relative;
+  left: 50%;
+}
+
+.menu ul li a
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+article section
+{
+  height: 100vh;
+}
+
+article section h1
+{
+  position: relative;
+  top: 7em;
+}
+
+#home
+{
+  background: #9E2A2B;
+}
