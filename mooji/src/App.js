@@ -10,7 +10,7 @@ function App() {
           <li><a href="#portifolio">portifólio</a></li>
           <li><a href="#sobre">sobre</a></li>
           <li><a href="#quemsomos">quem somos?</a></li>
-          <li><a href="#contato">contato</a></li>
+          <li><a href="#contato">contato!</a></li>
         </ul>
       </nav>
 
