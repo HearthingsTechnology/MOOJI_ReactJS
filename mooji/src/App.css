@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
 *
 {
   margin: 0;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 html
@@ -9,42 +16,60 @@ html
   scroll-behavior: smooth;
 } 
 
-.menu
-{
-  background: #000;
-  height: 4em;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  position: fixed;
-}
-
-.menu ul
-{
-  display: flex;
-  gap: 2em;
-  position: relative;
-  left: 50%;
-}
-
-.menu ul li a
-{
-  color: #fff;
-  text-decoration: none;
+body::-webkit-scrollbar {
+  display: none;           
 }
 
 article section
 {
   height: 100vh;
-}
-
-article section h1
-{
-  position: relative;
-  top: 7em;
+  width: 100vw;
+  background: #FFFFF0;
 }
 
 #home
 {
-  background: #9E2A2B;
+  background: #800000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+#home h1
+{
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+  font-size: 6em;
+  line-height: 1.1em;
+}
+
+#home h3
+{
+  position: relative;
+  left: 0.5em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+
+.rodape
+{
+  background: #000;
+  height: 13em;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape a
+{
+  color: #fff;
+}
+
+
+
+
+

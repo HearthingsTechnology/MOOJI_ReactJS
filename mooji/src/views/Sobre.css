@@ -1,0 +1,42 @@
+.containerSobre
+{
+    display: flex;
+}
+
+.text, .ht
+{
+    position: relative;
+    top: 17em;
+}
+
+.text
+{
+    height: 60vh;
+    width: 50vw;
+    text-align: justify;
+    position: relative;
+    left: 9em;
+}
+
+.text text
+{
+    font-size: 1em;
+}
+
+.verticalLine
+{
+    height: 60vh;
+    width: 2px;
+    background: #000;
+    position: relative;
+    left: 12em;
+    top: 15.3em;
+}
+
+.ht
+{
+    height: 30em;
+    width: 30em;
+    position: relative;
+    left: 15.5em;
+}

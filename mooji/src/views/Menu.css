@@ -1,0 +1,65 @@
+.menu
+{
+  background: #800000;
+  height: 6em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  flex-direction: row-reverse;
+  z-index: 5;
+}
+
+.menuPreto
+{
+  transition: 0.2s;
+  background: #000;
+  height: 7em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  flex-direction: row-reverse;
+  z-index: 5;
+}
+
+ul
+{
+  display: flex;
+  gap: 7.5em;
+  margin-right: 5em;
+  list-style: none;
+}
+
+ul li a
+{
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+ul li a:hover
+{
+  border-bottom: 2px solid #fff;
+}
+
+.logo
+{
+  position: relative;
+  right: 85%;
+}
+
+.logoImg
+{
+  transition: 0.5s;
+  height: 15em;
+  width: 15em;
+  object-fit: cover;
+  max-height: 6.2em;
+  position: relative;
+  left: 4em;
+  
+}

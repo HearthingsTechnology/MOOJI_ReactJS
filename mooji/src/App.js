@@ -1,29 +1,42 @@
 import './App.css';
-
+import React, { useEffect, useState } from 'react';
+import Mooji from './views/Mooji.jsx';
+import Menu from './views/Menu.jsx';
+import QuemSomos from './views/QuemSomos';
+import Portifolio from './views/Portifolio';
+import Contato from './views/Contato'
+import Sobre from './views/Sobre';
 
 function App() {
+  const [ativaCor, setAtivaCor] = useState(false);
+
+  useEffect(function(){
+    function posicaoScroll(){
+      if(window.scrollY > 900){
+        setAtivaCor(true);
+      } else{
+        setAtivaCor(false);
+      }
+    }
+
+    window.addEventListener('scroll', posicaoScroll);
+  }, []);
+
   return (
     <div class="container">
-      <nav className="menu">
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#portifolio">portifólio</a></li>
-          <li><a href="#sobre">sobre</a></li>
-          <li><a href="#quemsomos">quem somos?</a></li>
-          <li><a href="#contato">contato!</a></li>
-        </ul>
-      </nav>
-
+      <Menu acao={ativaCor}/>
       <article>
-        <section id="home"><h1>home</h1></section>
-        <section id="portifolio"><h1>portifólio</h1></section>
-        <section id="sobre"><h1>sobre</h1></section>
-        <section id="quemsomos"><h1>quem somos?</h1></section>
-        <section id="contato"><h1>contato</h1></section>
+        <section id="home"><Mooji /></section>
+        <section id="portifolio"><Portifolio /></section>
+        <section id="sobre"><Sobre /></section>
+        <section id="quemsomos"><QuemSomos /></section>
+        <section id="contato"><Contato /></section>
       </article>
-      <div></div>
+      <div className="rodape"><h3>Desenvolvido pela equipe do <a href="#quemsomos">MOOJI</a> : )</h3></div>
     </div>
   );
 }
 
 export default App;
+
+
