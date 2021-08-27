@@ -14,21 +14,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #fff;
+  max-width: 25em;
+  max-height: 20em;
 }
 
 .imgPortifolio
 {
   height: 16em;
   width: 25em;
-  background: #800000;
+  object-fit: cover;
+  box-shadow: 0 0 0.3em  #000;
+  opacity: 0.75;
 }
 
 .imgPortifolio:hover
 {
   transition: 0.2s;
-  transform: scale(1.15, 1.15);
+  transform: scale(1.11, 1.11);
   z-index: 2;
+  opacity: 1;
 }
 
 .content h3
@@ -36,5 +40,6 @@
   display: flex;
   align-self: center;
   position: relative;
-  line-height: 6.5em;
+  text-align: center;
+  margin-top: 2em;
 }

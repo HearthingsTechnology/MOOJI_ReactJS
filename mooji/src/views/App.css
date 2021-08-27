@@ -11,11 +11,6 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-html
-{
-  scroll-behavior: smooth;
-} 
-
 body::-webkit-scrollbar {
   display: none;           
 }
@@ -70,6 +65,75 @@ article section
 }
 
 
+@media (max-width: 700px)
+{
+  #home
+  {
+    height: 100vh;
+  }
+
+  #portifolio
+  {
+    height: 490vh;
+  }
+
+  #sobre
+  {
+    height: 250vh;
+  }
+
+  #sobre .containerSobre
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #sobre .containerSobre .text 
+  {
+    height: 30em;
+    width: 30em;
+    text-align: justify;
+    position: relative;
+    top: 36em;
+    left: 0;
+  }
+
+  #sobre .containerSobre .text text
+  {
+    font-size: 1.2em;
+  }
+
+  #sobre .containerSobre .verticalLine
+  {
+    height: 2px;
+    width: 40vh;
+    background: #000;
+    position: relative;
+    left: 0;
+    top: 4em;
+  }
+
+  #sobre .containerSobre .ht
+  {
+    height: 15em;
+    width: 15em;
+    position: relative;
+    top: -12em;
+    left: 0;
+  }
+
+  #quemsomos
+  {
+    height: 200vh;
+  }
+
+  #contato
+  {
+    height: 200vh;
+  }
+}
 
 
 

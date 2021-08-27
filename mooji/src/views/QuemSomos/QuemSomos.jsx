@@ -1,8 +1,8 @@
 import './QuemSomos.css';
-import Samuel from '../images/samuel.jpeg';
-import Lucas from '../images/lucas.jpeg';
-import Raissa from '../images/raissa.jpeg';
-import William from '../images/william.jpeg';
+import Samuel from '../../images/samuel.jpeg';
+import Lucas from '../../images/lucas.jpeg';
+import Raissa from '../../images/raissa.jpeg';
+import William from '../../images/william.jpeg';
 
 function QuemSomos() {
     return(

@@ -1,18 +1,20 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import Mooji from './views/Mooji.jsx';
-import Menu from './views/Menu.jsx';
-import QuemSomos from './views/QuemSomos';
-import Portifolio from './views/Portifolio';
-import Contato from './views/Contato'
-import Sobre from './views/Sobre';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import Mooji from './Mooji/Mooji.jsx';
+import Menu from './Menu/Menu.jsx';
+import QuemSomos from './QuemSomos/QuemSomos';
+import Portifolio from './Portifolio/Portifolio';
+import Contato from './Contato/Contato'
+import Sobre from './Sobre/Sobre';
 
 function App() {
   const [ativaCor, setAtivaCor] = useState(false);
-
+  
   useEffect(function(){
     function posicaoScroll(){
-      if(window.scrollY > 900){
+      if(window.scrollY > 890){
         setAtivaCor(true);
       } else{
         setAtivaCor(false);
