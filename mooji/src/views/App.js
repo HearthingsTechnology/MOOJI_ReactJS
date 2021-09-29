@@ -2,12 +2,14 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 // import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Mooji from './Mooji/Mooji.jsx';
 import Menu from './Menu/Menu.jsx';
-import QuemSomos from './QuemSomos/QuemSomos';
+
+import Home from './Home/Home.jsx';
+/*import QuemSomos from './QuemSomos/QuemSomos';
 import Portifolio from './Portifolio/Portifolio';
 import Contato from './Contato/Contato'
 import Sobre from './Sobre/Sobre';
+*/
 
 function App() {
   const [ativaCor, setAtivaCor] = useState(false);
@@ -28,11 +30,11 @@ function App() {
     <div class="container">
       <Menu acao={ativaCor}/>
       <article>
-        <section id="home"><Mooji /></section>
-        <section id="portifolio"><Portifolio /></section>
-        <section id="sobre"><Sobre /></section>
-        <section id="quemsomos"><QuemSomos /></section>
-        <section id="contato"><Contato /></section>
+        <section id="home"><Home /></section>
+        <section id="portifolio"></section>
+        <section id="nos"></section>
+        <section id="sobre"></section>
+        <section id="contato"></section>
       </article>
       <div className="rodape"><h3>Desenvolvido pela equipe do <a href="#quemsomos">MOOJI</a> : )</h3></div>
     </div>

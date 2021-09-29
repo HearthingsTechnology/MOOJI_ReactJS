@@ -1,13 +1,13 @@
 .menu
 {
-  background: #800000;
+  background: #a359a0;
   height: 6em;
   width: 100%;
   display: flex;
   align-items: center;
   position: fixed;
-  flex-direction: row-reverse;
   z-index: 5;
+  left: 10em;
 }
 
 .menuPreto
@@ -52,14 +52,12 @@ ul li a:hover
   right: 85%;
 }
 
-.logoImg
+.logoMooji
 {
-  transition: 0.5s;
   height: 15em;
   width: 15em;
   object-fit: cover;
-  max-height: 6.2em;
   position: relative;
-  left: 4em;
-  
+  left: 8em;
+  z-index: 100;
 }

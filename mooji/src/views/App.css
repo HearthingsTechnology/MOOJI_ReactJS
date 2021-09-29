@@ -24,27 +24,7 @@ article section
 
 #home
 {
-  background: #800000;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#home h1
-{
-  font-family: 'Abril Fatface', cursive;
-  letter-spacing: 2px;
-  font-size: 6em;
-  line-height: 1.1em;
-}
-
-#home h3
-{
-  position: relative;
-  left: 0.5em;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.5em;
+  background: #a359a0;
 }
 
 
