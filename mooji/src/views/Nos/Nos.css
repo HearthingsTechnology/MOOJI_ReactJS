@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap'); /* Título */
+
+.apresentationNos
+{
+    position: relative;
+    top: 13em;
+}
+
+.titleNos
+{
+    text-align: center;
+    font-size: 3.7em;
+    font-family: 'Suez One', serif;
+    color: #000;
+}
+
+.logoHTNos
+{
+    transform: scale(1.3);
+}
+
+#logoHTNos1
+{
+    align-self: center;
+    position: relative;
+    top: -10em;
+    left: 48%;
+}
+
+.textNos
+{
+    
+    max-width: 21em;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.contentNos1
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -5em;
+}
+
+.logoMoojiNos
+{
+    transform: scale(1.1);
+    position: relative;
+    top: -12em;
+    right: 1em;
+}
+
+.contentNos2
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    max-width: 90vw;
+    align-self: center;
+    position: relative;
+    left: 3em;
+    top: 5em;
+}
+
+.verticalBar
+{
+    height: 60vh;
+    width: 2px;
+    background: #000;
+    position: relative;
+    top: -9em;
+}
+
+#logoHTNos2
+{
+    align-self: center;
+    position: relative;
+    top: -10em;
+    transform: scale(1.4);
+}
+
+.contentNos3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 13em;
+}
+
+#titleNos2
+{
+    text-align: center;
+    font-size: 2.3em;
+    max-width: 15em;
+}
+
+.quemSomos
+{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    display: flex;
+    height: 30em;
+    width: 25em;
+    background: rgba(255,255,255,0.4);
+    border-radius: 30px;
+    position: relative;
+    top: 3em;
+   /* border: 3px dashed rgba(255,255,255,0.5); */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageNos img
+{
+    height: 20em;
+    width: 20em;
+}
+
+.subtitleCard
+{
+    text-align: center;
+    font-size: 2em;
+    color: #000; 
+}
+
+#logoHTNos3
+{
+    transform: scale(0.65);
+    position: relative;
+    top: -8em;
+}
+
+.card:hover
+{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+/*
+.card:active
+{
+    transform: scale(1.5);
+    transition: 0.4s;
+    background: rgba(255,255,255,1);
+    z-index: 10;
+    box-shadow: 0 0 1em #6b6868;
+    transition-delay: 0.1s;
+    filter: brightness(20%); 
+}
+
+.card:active > .imageNos
+{
+    filter: blur(2px);
+}
+
+.card:active > .subtitleCard
+{
+    filter: blur(2px);
+}
+*/

@@ -1,0 +1,26 @@
+.containerPortfolio
+{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+ 
+.image
+{
+    height: 300px;
+    width: 350px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.textPortfolio
+{
+    font-size: 35px;
+    text-align: center;
+}

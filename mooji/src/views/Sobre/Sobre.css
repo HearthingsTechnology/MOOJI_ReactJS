@@ -1,0 +1,26 @@
+.containerSobre
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    max-width: 90vw;
+    align-self: center;
+    position: relative;
+    left: 3em;
+    top: 25em;
+}
+
+.textSobre
+{
+    font-size: 2em;
+    max-width: 20em;
+    text-align: justify;
+}
+
+.logoMoojiSobre img
+{
+    transform: scale(1.5);
+    position: relative;
+    top: -8em;
+    right: 1em;
+}

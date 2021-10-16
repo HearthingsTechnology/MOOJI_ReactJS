@@ -5,13 +5,13 @@ import CellClock from '../../assets/images/cellclock.png';
 
 function Home(){
     return(
-        <div className="container">
-            <div className="content">
-                <h1 className="title">Emoções</h1>
-                <h1 className="subtitle">Saudáveis e com estilo</h1>
-                <h1 className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc et neque rhoncus eleifend. Phasellus ut massa tellus. Aenean.</h1>
+        <div className="containerHome">
+            <div className="contentHome">
+                <div className="titleHome">Emoções</div>
+                <div className="subtitleHome">Saudáveis e com estilo</div>
+                <div className="textHome">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc et neque rhoncus eleifend. Phasellus ut massa tellus. Aenean.</div>
             </div>
-            <div className="images">
+            <div className="imageHome">
                 <img src={CellClock} />
             </div>
         </div>

@@ -9,11 +9,11 @@ ReactDOM.render(
 );
 
 /*
-  Data da alteração: 28/09/2021;
+  Data da alteração: 16/10/2021;
   Autor: Samuel;
-  O que foi alterado: Excluí boa parte das páginas que já estavam feitas porque achei que assim seria mais fácil
-                      de criar o novo layout. Por enquanto fiz somente a home, e estou tendo certos problemas com
-                      o logo do menu. Temos um backup da versão do layout anterior do site na minha conta, então
-                      não precisam se procupar!
+  O que foi alterado: Tudo quase completo, pelo menos visualmente! Estou tendo problemas com o posicionamento de alguns elementos no rodapé,
+                      sempre que tento colocar os icones das redes sociais, ele sobe e fica um espaço branco no final da página. Além disso,
+                      por enquanto não está nada responsivo, por isso evite mudar o tamanho da janela :D, mas logo vou arrumar (antes de novembro)!
+                      Ah! Também falta fazer com que a seção "home" mude de cor sempre que for atualizada!
 
 */
