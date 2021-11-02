@@ -20,7 +20,10 @@ function Menu({acao}) {
           </ul>
           <img src={acao ? LogoMoojiB : LogoMoojiW} className="logoMooji"/>
           <img src={SearchIcon} className="SearchIcon"/>
-          
+
+          <div className="hambMenu">
+            <div className="lines"></div>
+          </div>
         </nav>
       </Router>
     );

@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap'); /* Título */
 
+.containerNos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .apresentationNos
 {
     position: relative;
-    top: 13em;
+    top: 23vh;
 }
 
 .titleNos
 {
-    text-align: center;
     font-size: 3.7em;
     font-family: 'Suez One', serif;
     color: #000;
@@ -21,16 +28,14 @@
 
 #logoHTNos1
 {
-    align-self: center;
     position: relative;
-    top: -10em;
-    left: 48%;
+    top: -20vh;
+    
 }
 
 .textNos
 {
-    
-    max-width: 21em;
+    max-width: 35vw;
     font-size: 2em;
     text-align: justify;
 }
@@ -38,9 +43,9 @@
 .contentNos1
 {
     display: flex;
-    justify-content: space-around;
     position: relative;
-    top: -5em;
+    top: -10vh;
+    gap: 400px;
 }
 
 .logoMoojiNos
@@ -54,13 +59,10 @@
 .contentNos2
 {
     display: flex;
-    justify-content: space-around;
-    position: relative;
     max-width: 90vw;
-    align-self: center;
     position: relative;
-    left: 3em;
     top: 5em;
+    gap: 150px;
 }
 
 .verticalBar
@@ -69,14 +71,14 @@
     width: 2px;
     background: #000;
     position: relative;
-    top: -9em;
+    top: -15vh;
 }
 
 #logoHTNos2
 {
     align-self: center;
     position: relative;
-    top: -10em;
+    top: -18vh;
     transform: scale(1.4);
 }
 
@@ -144,6 +146,191 @@
     transform: scale(1.02);
     transition: 0.2s;
 }
+
+.creators .textNos
+{
+    text-align: center;
+}
+
+
+@media (max-width: 1000px)
+{
+    #logoHTNos1
+    {
+        align-self: center;
+        position: relative;
+        top: -28vh;
+        left: 5vw;
+        transform: scale(1);
+    }
+
+    .contentNos1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textNos
+    {
+        max-width: 90vw;
+    }
+
+    .creators
+    {
+        position: relative;
+        top: 15vh;
+    }
+
+    .creators .textNos
+    {
+        text-align: center;
+    }
+
+    .logoMoojiNos
+    {
+        position: relative;
+        left: 1.3vw;
+    }
+
+    /* ------- */
+
+    .contentNos2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90vw;
+    }
+
+    .contentNos2 .textNos
+    {
+        position: relative;
+    }
+
+    .verticalBar
+    {
+        height: 2px;
+        width: 80vw;
+        background: #000;
+        position: relative;
+        top: 4vh;
+    }
+
+    #logoHTNos2
+    {
+        transform: scale(1);
+    }
+
+    .titleNos
+    {
+        font-size: 60px;
+        font-family: 'Suez One', serif;
+        color: #000;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .titleNos
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #logoHTNos1 img
+    {
+        transform: scale(0.7);
+        position: relative;
+        top: -40px;
+        right: 18px;
+    }
+
+    .textNos 
+    {
+        font-size: 23px;
+    }
+
+    #textNos2
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    .contentNos1
+    {
+        position: relative;
+        top: -30vh;
+    }
+
+    .creators
+    {
+        position: relative;
+        top: -50vh;
+    }
+
+    .creators .textNos
+    {
+        position: relative;
+    }
+
+    .logoMoojiNos
+    {
+        transform: scale(0.9);
+    }
+
+    /* ----------- */
+
+    .verticalBar
+    {
+        width: 40vw;
+        background: #000;
+        position: relative;
+        top: -37vh;
+        align-self: center;
+    }
+
+    #logoHTNos2
+    {
+        transform: scale(0.8);
+        position: relative;
+        top: -81vh;
+    }
+    
+    .contentNos2
+    {
+        position: relative;
+        top: -70vh;
+        gap: 0;
+    }
+
+    /* ---------- */
+
+    .contentNos3
+    {
+        position: relative;
+        top: -90vh;
+    }
+    
+    #titleNos2
+    {
+        text-align: center;
+        font-size: 30px;
+        max-width: 15em;
+    }
+
+    .quemSomos
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
 
 /*
 .card:active

@@ -9,9 +9,9 @@ function Sobre(){
         <div>
             <div className="containerSobre">
                 <div className="logoMoojiSobre"><img src={LogoMoojiB} /></div>
-                <div className="verticalBar"></div>
+                <div className="verticalBar" id="verticalBarSobre"></div>
                 <div className="textSobre">{texto}</div> 
-            </div>
+            </div> 
         </div>
     );
 } 

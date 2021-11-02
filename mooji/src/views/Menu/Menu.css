@@ -3,6 +3,7 @@
   background: #a359a0;
   height: 8em;
   width: 100vw;
+  max-width: 100vw;
   display: flex;
   align-items: center;
   position: fixed;
@@ -78,4 +79,65 @@ ul li a:hover
 .color:hover
 {
   border-bottom: 2px solid #000;
+}
+
+.lines
+{
+  height: 7px;
+  width: 50px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.lines::before
+{
+  content: '';
+  height: 7px;
+  width: 50px;
+  background: #fff;
+  position: absolute;
+  bottom: 74px;
+  border-radius: 2px;
+}
+
+.lines::after
+{
+  content: '';
+  height: 7px;
+  width: 50px;
+  background: #fff;
+  position: absolute;
+  top: 74px;
+  border-radius: 2px;
+}
+
+.hambMenu
+{
+  margin-left: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 700px)
+{
+  .menu
+  {
+    position: relative;
+  }
+
+  .menu ul, .menu img
+  {
+    display: none;
+    cursor: pointer;
+  }
+
+  .menuBranco
+  {
+    display: none;
+  }
+
+  .hambMenu
+  {
+    display: block;
+  }
 }

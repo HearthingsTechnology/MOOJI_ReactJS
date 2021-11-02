@@ -10,7 +10,7 @@
 }
 
 .titleContato
-{
+{ 
     text-align: center;
     font-size: 4rem;
     font-family: 'Suez One', serif;
@@ -72,6 +72,7 @@
     border-radius: 30px;
     resize: none;
     padding-top: 10px;
+    padding-right: 15px;
 }
 
 #botao
@@ -95,5 +96,47 @@
     
 }
 
+@media (max-width: 500px)
+{
+    .titleContato
+    {
+        font-size: 32px;
+    }
+
+    #nome
+    {
+        height: 7vh;
+        width: 70vw;
+        border-radius: 20px;
+    }
+
+    #email
+    {
+        height: 7vh;
+        width: 70vw;
+        border-radius: 20px;
+    }
+
+    #mensagem
+    {
+        width: 70vw;
+    }
+
+    .formContato input::placeholder, textarea::placeholder
+    {
+        font-size: 30px;
+    }
+
+    .formContato
+    {
+        left: -70px;
+    }
+
+    .formContato #nome, #email, #mensagem, #botao
+    {
+        margin-bottom: 30px;
+        
+    }
+}
 
 

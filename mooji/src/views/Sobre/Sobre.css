@@ -6,7 +6,6 @@
     max-width: 90vw;
     align-self: center;
     position: relative;
-    left: 3em;
     top: 25em;
 }
 
@@ -22,5 +21,37 @@
     transform: scale(1.5);
     position: relative;
     top: -8em;
-    right: 1em;
+}
+
+@media (max-width: 500px)
+{
+    .containerSobre
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -40vh;
+    }
+
+    #verticalBarSobre
+    {
+        width: 70vw;
+        position: relative;
+    }
+
+    .logoMoojiSobre img
+    {
+        transform: scale(1.2);
+        position: relative;
+        top: -60px;
+    }   
+
+    .textSobre
+    {
+        font-size: 23px;
+        position: relative;
+        top: -28vh;
+    }
 }

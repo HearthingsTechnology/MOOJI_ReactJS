@@ -28,10 +28,11 @@ function App() {
     }
 
     window.addEventListener('scroll', posicaoScroll);
+
   }, []);
 
   return (
-    <div class="container">
+    <div className="container">
       <Menu acao={ativaCor}/>
       <article>
         <section id="home"><Home /></section>
