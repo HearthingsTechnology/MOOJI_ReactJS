@@ -18,5 +18,6 @@ ReactDOM.render(
 
                       ***********
                       Agora está mais responsivo que antes, mas não 100%, então se puderem ir vendo isso também! 
+                      Ainda vamos precisar colocar o conteúdo da página, mas acho que isso não vai dar tanto trabalho!
 
 */
