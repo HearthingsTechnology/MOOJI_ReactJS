@@ -6,13 +6,13 @@
     max-width: 90vw;
     align-self: center;
     position: relative;
-    top: 25em;
+    top: 400px;
 }
 
 .textSobre
 {
-    font-size: 2em;
-    max-width: 20em;
+    font-size: 32px;
+    max-width: 640px;
     text-align: justify;
 }
 
@@ -20,7 +20,7 @@
 {
     transform: scale(1.5);
     position: relative;
-    top: -8em;
+    top: -128px;
 }
 
 @media (max-width: 500px)

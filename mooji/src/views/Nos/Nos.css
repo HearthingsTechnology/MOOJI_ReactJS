@@ -16,7 +16,7 @@
 
 .titleNos
 {
-    font-size: 3.7em;
+    font-size: 59.2px;
     font-family: 'Suez One', serif;
     color: #000;
 }
@@ -36,7 +36,7 @@
 .textNos
 {
     max-width: 35vw;
-    font-size: 2em;
+    font-size: 32px;
     text-align: justify;
 }
 
@@ -52,8 +52,8 @@
 {
     transform: scale(1.1);
     position: relative;
-    top: -12em;
-    right: 1em;
+    top: -192px;
+    right: 16px;
 }
 
 .contentNos2
@@ -61,7 +61,7 @@
     display: flex;
     max-width: 90vw;
     position: relative;
-    top: 5em;
+    top: 80px;
     gap: 150px;
 }
 
@@ -89,32 +89,32 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: 13em;
+    top: 208px;
 }
 
 #titleNos2
 {
     text-align: center;
-    font-size: 2.3em;
-    max-width: 15em;
+    font-size: 36.8px;
+    max-width: 552px;
 }
 
 .quemSomos
 {
     display: flex;
-    gap: 2em;
+    gap: 32px;
     flex-wrap: wrap;
 }
 
 .card
 {
     display: flex;
-    height: 30em;
-    width: 25em;
+    height: 480px;
+    width: 400px;
     background: rgba(255,255,255,0.4);
     border-radius: 30px;
     position: relative;
-    top: 3em;
+    top: 48px;
    /* border: 3px dashed rgba(255,255,255,0.5); */
     justify-content: center;
     align-items: center;
@@ -123,14 +123,14 @@
 
 .imageNos img
 {
-    height: 20em;
-    width: 20em;
+    height: 320px;
+    width: 320px;
 }
 
 .subtitleCard
 {
     text-align: center;
-    font-size: 2em;
+    font-size: 32px;
     color: #000; 
 }
 
@@ -138,7 +138,7 @@
 {
     transform: scale(0.65);
     position: relative;
-    top: -8em;
+    top: -128px;
 }
 
 .card:hover

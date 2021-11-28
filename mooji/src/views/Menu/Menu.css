@@ -1,7 +1,7 @@
 .menu
 {
   background: #a359a0;
-  height: 8em;
+  height: 128px;
   width: 100vw;
   max-width: 100vw;
   display: flex;
@@ -13,7 +13,7 @@
 .menuBranco
 {
   background: #fff;
-  height: 8em;
+  height: 128px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -24,11 +24,11 @@
 ul
 {
   display: flex;
-  gap: 5.5em;
-  margin-right: 5em;
+  gap: 88px;
+  margin-right: 80px;
   list-style: none;
   position: relative;
-  left: 4.5em;
+  left: 72px;
 }
 
 ul li a
@@ -36,7 +36,7 @@ ul li a
   margin: 0;
   color: #fff;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 32px;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 1px;
 }
@@ -55,20 +55,20 @@ ul li a:hover
 
 .logoMooji
 {
-  height: 27em;
-  width: 27m;
+  height: 432px;
+  width: 432px;
   object-fit: cover;
   position: relative;
-  left: 24em;
+  left: 384px;
   z-index: 100; 
 }
 
 .SearchIcon
 {
-  height: 4em;
-  width: 4em;
+  height: 64px;
+  width: 64px;
   position: relative;
-  left: 19em;
+  left: 304px;
 }
 
 .color

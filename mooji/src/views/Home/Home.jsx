@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 
-import CellClock from '../../assets/images/cellclock.png';
+import ImgHome from '../../assets/images/cellclock.png';
 
 function Home(){
     return(
@@ -10,9 +10,9 @@ function Home(){
                 <div className="titleHome">Emoções</div>
                 <div className="subtitleHome">Saudáveis e com estilo</div>
                 <div className="textHome">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nunc et neque rhoncus eleifend. Phasellus ut massa tellus. Aenean.</div>
-            </div>
+            </div> 
             <div className="imageHome">
-                <img src={CellClock} />
+                <img src={ImgHome} />
             </div>
         </div>
     );

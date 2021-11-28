@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import './Menu.css';
 import LogoMoojiW from '../../assets/images/LogoMoojiW.png';
 import LogoMoojiB from '../../assets/images/LogoMoojiB.png';
-import SearchIcon from '../../assets/images/search.png';
+import SearchIcon from '../../assets/images/searchWhite.png';
 
 function Menu({acao}) {
     return(

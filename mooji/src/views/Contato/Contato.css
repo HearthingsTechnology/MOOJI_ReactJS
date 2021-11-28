@@ -2,7 +2,7 @@
 .containerContato
 {
     position: relative;
-    top: 10rem;
+    top: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
 .titleContato
 { 
     text-align: center;
-    font-size: 4rem;
+    font-size: 64px;
     font-family: 'Suez One', serif;
     color: #000;
 }
@@ -23,12 +23,12 @@
     flex-direction: column;
     width: 50vw;
     position: relative;
-    top: 3rem;
+    top: 48px;
 }
 
 .formContato #nome, #email, #mensagem, #botao
 {
-    margin-bottom: 4rem;
+    margin-bottom: 64px;
     border: none;
 }
 
@@ -39,36 +39,36 @@
 
 .formContato input, textarea
 {
-    padding-left: 2rem;
-    padding-top: 0.3rem;
-    font-size: 2rem;
+    padding-left: 32px;
+    padding-top: 4.8px;
+    font-size: 32px;
 }
 
 .formContato input::placeholder, textarea::placeholder
 {
-    font-size: 2.5rem;
+    font-size: 40px;
     position: relative;
     color: rgba(0,0,0,0.8);
 }
 
 #nome
 {
-    height: 5rem;
-    width: 25rem;
+    height: 80px;
+    width: 400px;
     border-radius: 50px;
 }
 
 #email
 {
-    height: 5rem;
-    width: 40rem;
+    height: 80px;
+    width: 640px;
     border-radius: 50px;
 }
 
 #mensagem
 {
-    height: 20rem;
-    width: 50rem;
+    height: 320px;
+    width: 800px;
     border-radius: 30px;
     resize: none;
     padding-top: 10px;
@@ -78,16 +78,16 @@
 #botao
 {
     background: #81a969;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
-    height: 5rem;
-    width: 6em;
-    border-radius: 0.8rem;
+    height: 80px;
+    width: 144px;
+    border-radius: 12.8px;
     position: relative;
-    left: 60rem;
-    bottom: 10rem;
+    left: 960px;
+    bottom: 160px;
 }
 
 #botao:hover
